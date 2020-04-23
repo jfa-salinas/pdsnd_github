@@ -261,37 +261,7 @@ def main():
         user_stats(df)
         
         display_data(df)
-        
-        # while True:
-            
-        #     try:
-        #         data_view = int(input('Would you like to the data? Yes (1), No (2): '))
-        #     except ValueError:
-        #         print('**Oops, please select from the following options - 1, or 2**')
-        #         continue
-        #     if data_view not in (1, 2):
-        #         print('**Oops, please select from the following options - 1, or 2**')
-        #         continue
-        #     elif data_view == 1:
                 
-        #         my_range(df)
-                
-        #         #for value in my_range():
-        #         while True:    
-        #         #i = my_range()
-        #             test = np.array(df)
-                
-        #             for value in my_range():
-        #                 x = value[0]
-        #                 y = value[1]
-        #                 print(" this is x: {} and this is y: {}".format(x,y))
-        #                 print("")          
-        #                 print(test[x:y,:])
-        #                 data_view = int(input('Would you like to the data? Yes (1), No (2): '))
-                    
-        #     else:
-        #         break
-    
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
