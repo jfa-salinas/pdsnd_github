@@ -244,11 +244,7 @@ def display_data(df):
             # data_view = input('Would you like to see more? Yes (1), No (2): ')
             i += 5
             j += 5 
-            
-            # if data_view ==2:
-#                return
-
-           
+                       
 
 def main():
     while True:
