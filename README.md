@@ -2,10 +2,10 @@
 April 23, 2020
 
 ### Project Title
-Replace the Project Title
+BikeShare Python Project
 
 ### Description
-Describe what your project is about and what it does
+Project allows user to interact with historical data from three US cities.
 
 ### Files used
 Include the files used
