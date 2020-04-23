@@ -1,7 +1,8 @@
+"""This python project allows a user to look at historical bikeshare data from Chicago, New York City, and Washington"""
+
 import time
 import pandas as pd
 import numpy as np
-"""This python project allows a user to look at historical bikeshare data from Chicago, New York City, and Washington"""
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
