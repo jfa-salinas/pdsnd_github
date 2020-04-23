@@ -199,7 +199,7 @@ def user_stats(df):
     # Display counts of gender
     
     if 'Gender' in df:
-        print("What is the breakdown of gender?\n{}\n".format(df['Gender'].value_counts()))
+        print("What is the gender breakdown?\n{}\n".format(df['Gender'].value_counts()))
 
 
     # Display earliest, most recent, and most common year of birth
